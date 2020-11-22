@@ -4,7 +4,7 @@ import './App.css';
 import AnimalForm from './components/forms/AnimalForm.js';
 import NavBar from './components/layouts/NavBar.js';
 
-const url_api = 'http://localhost:8080/api/animales/';
+const url_api = 'http://localhost/api/animales/';
 
 class App extends Component {
 

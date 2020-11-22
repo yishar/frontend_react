@@ -1,0 +1,10 @@
+version: '2'
+services:
+  interface:
+    build: .
+    volumes:
+      - ".:/src/app/"
+    ports:
+      # Convertir el puerto interno del
+      # docker "3000" en "3000" para afuera.
+      - "3000:3000"
